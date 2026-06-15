@@ -1,0 +1,72 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.builder-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.element-button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #475569;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.element-button:hover {
+  background: #64748b;
+}
+
+.action-button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background: #1d4ed8;
+}
+
+.result-panel {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #1e293b;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.saved-list {
+  list-style: none;
+  padding: 0;
+}
+
+.saved-list li {
+  margin: 10px 0;
+}
+
+.delete-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #dc2626;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #b91c1c;
+}
